@@ -6,9 +6,12 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
   const links = (
     <>
-      <ul>
+      <ul className="md:flex gap-2 text-white ">
         <li>
           <NavLink to="/">Home</NavLink>
+        </li>
+        <li>
+          <NavLink to="/about">About Me</NavLink>
         </li>
       </ul>
     </>
@@ -18,7 +21,7 @@ const Navbar = () => {
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-            <p className="text-2xl font-bold">
+            <p className="text-2xl text-white font-bold">
               <RiMenuFill></RiMenuFill>
             </p>
           </div>
@@ -37,12 +40,7 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">
-          <span className="text-lg">
-            <RiDownloadLine></RiDownloadLine>{" "}
-          </span>
-          Download Resume
-        </a>
+        <a className="btn bg-[#F0C268] my-4">Download CV</a>
       </div>
     </div>
   );

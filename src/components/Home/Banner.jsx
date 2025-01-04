@@ -9,11 +9,12 @@ const Banner = () => {
         {/* text div */}
         <div>
           <h1 className="text-white font-bold">
-            I'M <span className="text-[#F0C268]">Abu Bakr Siddik</span>
+            I'M <span className="text-[#F0C268] text-2xl">Abu Bakr Siddik</span>
           </h1>
           <p className="text-4xl text-[#F0C268] font-bold mb-4">
             Fontend Developer
           </p>
+          {/* ///link div */}
           <div className="text-white text-4xl flex justify-start items-center gap-3">
             <a href="https://github.com/abubakrsiddikl" target="_blank">
               <FaGithubSquare />
@@ -34,6 +35,7 @@ const Banner = () => {
               <FaFacebook></FaFacebook>
             </a>
           </div>
+          <button className="btn bg-[#F0C268] my-4">Download CV</button>
         </div>
         {/* image div */}
         <div>
