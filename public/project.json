@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Matrimony",
+    "images": [
+      "https://i.ibb.co.com/HDcfFHPD/matmony1.png",
+      "https://i.ibb.co.com/KxD3MZh1/matmony2.png",
+      "https://i.ibb.co.com/3yd5nZ8m/matmony3.png"
+    ],
+    "techStack": ["Html", "Tailwind CSS", "React", "Express.js", "MongoDB"],
+    "description": "A matrimony platform that connects people for marriage, with features like profile management and messaging.",
+    "liveLink": "https://matrimony-5930a.web.app/",
+    "githubLink": "https://github.com/abubakrsiddikl/matrimony-client",
+    "challenges": "Handling complex search functionality and ensuring data security.",
+    "futurePlans": "Adding AI-based matchmaking and live video calling features."
+  },
+  {
+    "id": 2,
+    "name": "Crowd Funding",
+    "images": [
+      "https://i.ibb.co.com/RpR6Yz5b/corwd1.png",
+      "https://i.ibb.co.com/fz9S2bg4/crowd2.png",
+      "https://i.ibb.co.com/27mNCkQm/crowd3.png"
+    ],
+    "techStack": ["React", "Express.js", "MongoDB", "Tailwind CSS"],
+    "description": "A platform that helps users raise funds for various causes through community support.",
+    "liveLink": "https://fuding-auth.web.app/",
+    "githubLink": "https://github.com/abubakrsiddikl/Crowd-Funding-Client",
+    "challenges": "Integrating payment gateways and ensuring smooth transaction flows.",
+    "futurePlans": "Introducing recurring donations and implementing advanced reporting features."
+  },
+  {
+    "id": 3,
+    "name": "Lost and Found",
+    "images": [
+      "https://i.ibb.co.com/233mkMDw/lostfound1.png",
+      "https://i.ibb.co.com/VrGbyZZ/lostfound2.png",
+      "https://i.ibb.co.com/Psrx5ftg/lostfound3.png"
+    ],
+    "techStack": ["React", "Express.js", "MongoDB", "Tailwind CSS"],
+    "description": "A platform for people to report lost items and search for found items in their local area.",
+    "liveLink": "https://lost-and-found-web-8dbe0.web.app/",
+    "githubLink": "https://github.com/abubakrsiddikl/Lost_And_Found_Client",
+    "challenges": "Creating a location-based search and managing large data sets.",
+    "futurePlans": "Adding user profiles, notifications, and mobile app support."
+  }
+]

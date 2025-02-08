@@ -15,11 +15,17 @@ const Navbar = () => {
         <li>
           <Link smooth to="/#about">About Me</Link>
         </li>
+        <li>
+          <Link smooth to="/#skill">Skills</Link>
+        </li>
+        <li>
+          <Link smooth to="/#project">Projects</Link>
+        </li>
       </ul>
     </>
   );
   return (
-    <div className="navbar sticky z-50">
+    <div className="navbar sticky top-0 z-50 bg-black px-5">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,7 +35,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {links}
           </ul>

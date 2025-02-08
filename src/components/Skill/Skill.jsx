@@ -11,7 +11,7 @@ const Skill = () => {
   }, []);
 
   return (
-    <div className="p-6 bg-[#1E1E1E]">
+    <div id="skill" className="p-6">
       <h2 className="text-3xl font-bold text-center text-white mb-8">My Skills</h2>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
         {skills.length > 0 ? (
@@ -37,3 +37,4 @@ const Skill = () => {
 };
 
 export default Skill;
+
