@@ -1,6 +1,8 @@
 import React from "react";
 import { RiDownloadLine, RiMenuFill } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
+
 import logo from "../../assets/logo.png";
 
 const Navbar = () => {
@@ -8,16 +10,16 @@ const Navbar = () => {
     <>
       <ul className="md:flex gap-2 text-white ">
         <li>
-          <NavLink to="/">Home</NavLink>
+          <Link smooth to="/#home">Home</Link>
         </li>
         <li>
-          <NavLink to="/about">About Me</NavLink>
+          <Link smooth to="/#about">About Me</Link>
         </li>
       </ul>
     </>
   );
   return (
-    <div className="navbar ">
+    <div className="navbar sticky z-50">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

@@ -6,6 +6,7 @@ const MainLayout = () => {
     <div className="w-11/12 mx-auto ">
       <Navbar></Navbar>
       <Outlet></Outlet>
+      
     </div>
   );
 };

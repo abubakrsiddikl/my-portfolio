@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "image": "https://example.com/html-logo.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
     "technologyName": "HTML"
   },
   {
     "id": 2,
-    "image": "https://example.com/tailwind-logo.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     "technologyName": "Tailwind CSS"
   },
   {
     "id": 3,
-    "image": "https://example.com/javascript-logo.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
     "technologyName": "JavaScript"
   },
   {
     "id": 4,
-    "image": "https://example.com/react-logo.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
     "technologyName": "React"
   },
   {
     "id": 5,
-    "image": "https://example.com/nodejs-logo.png",
+    "image": "https://i.ibb.co.com/M5xBhd7T/node.png",
     "technologyName": "Node.js"
   },
   {
     "id": 6,
-    "image": "https://example.com/expressjs-logo.png",
+    "image": "https://i.ibb.co.com/HpfJ3kv8/expressjs.png",
     "technologyName": "Express.js"
   },
   {
     "id": 7,
-    "image": "https://example.com/mongodb-logo.png",
+    "image": "https://i.ibb.co.com/bgnhWYY8/mongdb.png",
     "technologyName": "MongoDB"
   }
 ]
