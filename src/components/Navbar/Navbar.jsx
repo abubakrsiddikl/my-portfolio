@@ -8,9 +8,9 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
   const links = (
     <>
-      <ul className="md:flex gap-2 text-white ">
+      <ul className="md:flex gap-2 text-white text-lg">
         <li>
-          <Link smooth to="/#home">Home</Link>
+          <Link smooth to="/#home" className="hover:underline">Home</Link>
         </li>
         <li>
           <Link smooth to="/#about">About Me</Link>
@@ -19,13 +19,16 @@ const Navbar = () => {
           <Link smooth to="/#skill">Skills</Link>
         </li>
         <li>
-          <Link smooth to="/#project">Projects</Link>
+          <Link smooth to="/#project">My Projects</Link>
+        </li>
+        <li>
+          <Link smooth to="/#contact">Contact</Link>
         </li>
       </ul>
     </>
   );
   return (
-    <div className="navbar sticky top-0 z-50 bg-black px-5">
+    <div className="navbar sticky top-0 z-50 bg-[#2E2F33] px-5">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -35,7 +38,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-[#2E2F33] rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             {links}
           </ul>

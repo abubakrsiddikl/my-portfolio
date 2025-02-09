@@ -10,7 +10,7 @@ const Project = () => {
   }, []);
   console.log(projects);
   return (
-    <div id="project" className="p-10 bg-[#34353A] text-white min-h-screen">
+    <div id="project" className="p-10 bg-[#34353A] text-white ">
       <h2 className="text-4xl font-bold text-center mb-10">My Projects</h2>
 
       {/* Project Cards Grid */}

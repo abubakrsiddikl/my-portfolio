@@ -1,11 +1,15 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import AboutMe from "../AboutMe/AboutMe";
 import Skill from "../Skill/Skill";
 import Home from "../Home/Home";
 import Projects from "../Project/Project";
+import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 const MainLayout = () => {
+  const location = useLocation();
+  console.log(location);
   return (
     <div className=" ">
       <Navbar></Navbar>
@@ -15,8 +19,9 @@ const MainLayout = () => {
         <AboutMe></AboutMe>
         <Skill></Skill>
         <Projects></Projects>
-        
+        <Contact></Contact>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

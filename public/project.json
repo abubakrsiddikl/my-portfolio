@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Matrimony",
+    "name": "Matrimony ",
     "images": [
       "https://i.ibb.co.com/HDcfFHPD/matmony1.png",
       "https://i.ibb.co.com/KxD3MZh1/matmony2.png",
@@ -9,6 +9,7 @@
     ],
     "techStack": ["Html", "Tailwind CSS", "React", "Express.js", "MongoDB"],
     "description": "A matrimony platform that connects people for marriage, with features like profile management and messaging.",
+    "overview": "Matrimony Platform is a modern matchmaking solution designed to connect individuals seeking life partners. It offers secure profile management,  and seamless payment integration. Built with React, Express.js, MongoDB, Tailwind CSS, and Stripe.js, the platform ensures a smooth user experience with advanced search filters and a secure authentication system. Future enhancements include AI-driven matchmaking and a mobile app for better accessibility.",
     "liveLink": "https://matrimony-5930a.web.app/",
     "githubLink": "https://github.com/abubakrsiddikl/matrimony-client",
     "challenges": "Handling complex search functionality and ensuring data security.",
@@ -24,6 +25,7 @@
     ],
     "techStack": ["React", "Express.js", "MongoDB", "Tailwind CSS"],
     "description": "A platform that helps users raise funds for various causes through community support.",
+    "overview": "The Crowd Funding Platform is an online solution designed to connect individuals and organizations with people willing to support their causes through financial contributions. It allows users to create, manage, and contribute to various fundraising campaigns. Built with React for a dynamic user interface, Express.js and MongoDB for back-end services, and styled using Tailwind CSS, this platform ensures secure and easy donations with features like real-time funding tracking, user authentication .",
     "liveLink": "https://fuding-auth.web.app/",
     "githubLink": "https://github.com/abubakrsiddikl/Crowd-Funding-Client",
     "challenges": "Integrating payment gateways and ensuring smooth transaction flows.",
@@ -39,6 +41,7 @@
     ],
     "techStack": ["React", "Express.js", "MongoDB", "Tailwind CSS"],
     "description": "A platform for people to report lost items and search for found items in their local area.",
+    "overview": "Lost and Found is a web platform designed to help users report and recover lost items efficiently. Built with React, Tailwind CSS, JavaScript, Express.js, and MongoDB, it allows users to post lost or found items, search for matches, and securely connect with others to return belongings. The platform features user authentication, advanced search filters, and location-based matching to enhance the recovery process.",
     "liveLink": "https://lost-and-found-web-8dbe0.web.app/",
     "githubLink": "https://github.com/abubakrsiddikl/Lost_And_Found_Client",
     "challenges": "Creating a location-based search and managing large data sets.",
