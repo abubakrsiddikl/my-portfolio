@@ -8,21 +8,31 @@ import logo from "../../assets/logo.png";
 const Navbar = () => {
   const links = (
     <>
-      <ul className="md:flex gap-2 text-white text-lg">
+      <ul className="md:flex gap-2 text-white text-lg w-full">
         <li>
-          <Link smooth to="/#home" className="hover:underline">Home</Link>
+          <Link smooth to="/#home" className="hover:underline">
+            Home
+          </Link>
         </li>
         <li>
-          <Link smooth to="/#about">About Me</Link>
+          <Link smooth to="/#about" className="hover:underline">
+            About Me
+          </Link>
         </li>
         <li>
-          <Link smooth to="/#skill">Skills</Link>
+          <Link smooth to="/#skill" className="hover:underline">
+            Skills
+          </Link>
         </li>
         <li>
-          <Link smooth to="/#project">My Projects</Link>
+          <Link smooth to="/#project" className="hover:underline">
+            My Projects
+          </Link>
         </li>
         <li>
-          <Link smooth to="/#contact">Contact</Link>
+          <Link smooth to="/#contact" className="hover:underline">
+            Contact
+          </Link>
         </li>
       </ul>
     </>
