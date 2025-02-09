@@ -7,7 +7,7 @@
       "https://i.ibb.co.com/KxD3MZh1/matmony2.png",
       "https://i.ibb.co.com/3yd5nZ8m/matmony3.png"
     ],
-    "techStack": ["Html", "Tailwind CSS", "React", "Express.js", "MongoDB"],
+    "techStack": ["Html", "Tailwind CSS", "React", "Express.js", "MongoDB","Stripe.js"],
     "description": "A matrimony platform that connects people for marriage, with features like profile management and messaging.",
     "overview": "Matrimony Platform is a modern matchmaking solution designed to connect individuals seeking life partners. It offers secure profile management,  and seamless payment integration. Built with React, Express.js, MongoDB, Tailwind CSS, and Stripe.js, the platform ensures a smooth user experience with advanced search filters and a secure authentication system. Future enhancements include AI-driven matchmaking and a mobile app for better accessibility.",
     "liveLink": "https://matrimony-5930a.web.app/",
