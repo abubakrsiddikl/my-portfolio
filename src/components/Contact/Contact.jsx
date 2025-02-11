@@ -14,7 +14,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-16 px-6 md:px-12 lg:px-24 bg-[#34353A] text-white"
+      className=" pb-10 px-6 md:px-12 lg:px-24 bg-[#34353A] text-white"
     >
       <h2 class="text-4xl font-bold text-center mb-10">Contact</h2>
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
