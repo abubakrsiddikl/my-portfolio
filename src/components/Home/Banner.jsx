@@ -35,7 +35,17 @@ const Banner = () => {
               <FaFacebook></FaFacebook>
             </a>
           </div>
-          <button className="btn bg-[#F0C268] my-4">Download CV</button>
+          <button
+            className="btn bg-[#F0C268] my-4"
+            onClick={() =>
+              window.open(
+                "https://drive.google.com/file/d/1KDcHVc53vKch_zlcZJDxrdMukyM3FVf-/view?usp=sharing",
+                "_blank"
+              )
+            }
+          >
+            Download CV
+          </button>
         </div>
         {/* image div */}
         <div>

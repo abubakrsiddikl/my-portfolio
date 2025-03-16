@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { RiDownloadLine, RiMenuFill } from "react-icons/ri";
 import { HashLink as Link } from "react-router-hash-link";
@@ -18,27 +17,52 @@ const Navbar = () => {
   const links = (
     <ul className="flex flex-col md:flex-row gap-4 text-white text-lg">
       <li>
-        <Link smooth to="/#home" className="hover:underline" onClick={closeDropdown}>
+        <Link
+          smooth
+          to="/#home"
+          className="hover:underline"
+          onClick={closeDropdown}
+        >
           Home
         </Link>
       </li>
       <li>
-        <Link smooth to="/#about" className="hover:underline" onClick={closeDropdown}>
+        <Link
+          smooth
+          to="/#about"
+          className="hover:underline"
+          onClick={closeDropdown}
+        >
           About Me
         </Link>
       </li>
       <li>
-        <Link smooth to="/#skill" className="hover:underline" onClick={closeDropdown}>
+        <Link
+          smooth
+          to="/#skill"
+          className="hover:underline"
+          onClick={closeDropdown}
+        >
           Skills
         </Link>
       </li>
       <li>
-        <Link smooth to="/#project" className="hover:underline" onClick={closeDropdown}>
+        <Link
+          smooth
+          to="/#project"
+          className="hover:underline"
+          onClick={closeDropdown}
+        >
           My Projects
         </Link>
       </li>
       <li>
-        <Link smooth to="/#contact" className="hover:underline" onClick={closeDropdown}>
+        <Link
+          smooth
+          to="/#contact"
+          className="hover:underline"
+          onClick={closeDropdown}
+        >
           Contact
         </Link>
       </li>
@@ -50,7 +74,10 @@ const Navbar = () => {
       {/* Left Side (Logo & Mobile Menu) */}
       <div className="navbar-start flex items-center">
         {/* Mobile Menu Button */}
-        <button onClick={toggleDropdown} className="lg:hidden text-white text-2xl p-2">
+        <button
+          onClick={toggleDropdown}
+          className="lg:hidden text-white text-2xl p-2"
+        >
           <RiMenuFill />
         </button>
 
@@ -67,7 +94,17 @@ const Navbar = () => {
 
       {/* Right Side (CV Button) */}
       <div className="navbar-end">
-        <a className="btn bg-[#F0C268] my-4">Download CV</a>
+        <a
+          className="btn bg-[#F0C268] my-4"
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1KDcHVc53vKch_zlcZJDxrdMukyM3FVf-/view?usp=sharing",
+              "_blank"
+            )
+          }
+        >
+          Download CV
+        </a>
       </div>
 
       {/* Mobile Dropdown Menu */}
